@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timed Coding Quiz</title>
+    <link rel= "stylesheet" type= "text/css" href= "./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+                <button id="view-score" class="button">View high scores</button>
+                <p class="timer-text">Time:75</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+         <div id="intro">
+            <h1>Coding Quiz Challenge</h1><br>
+            <p> Try to answer the following questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! </p><br>
+            <button id="start" class="button btn-success">Start Quiz</button>
+        </div>
+        </section>
+
+        <section>
+            <div id="listed-questions">
+              
+                <h2 id="question"> This is a question</h2>
+                <ul>
+                    <li><button id="answer1" class="btn btn-success ansBtn" value="0" type="button">Answer1</button></li>
+                    <li><button id="answer2" class="btn btn-success ansBtn" value="1" type="button">Answer2</button></li>
+                    <li><button id="answer3" class="btn btn-success ansBtn" value="2" type="button">Answer3</button></li>
+                    <li><button id="answer4" class="btn btn-success ansBtn" value="3" type="button">Answer4</button></li>
+                </ul>
+                <div id="right-wrong" style="width: 50%; margin:auto"></div>
+        </div>
+        </section>
+
+        <section>
+            <div id="final-score">
+                <h2>All done!</h2>
+                <p>Your final score is: <span id="score">0</span></p>
+                <p>Enter initals: <span> <input id="initials" style="font-size: 20px" placeholder="Initials"/></span> <button id="submit">Submit</button></p>
+           </div>
+        </section>
+
+        <section>
+                <div id="high-scores">
+                <h2>High Scores</h2>
+                <ol id="scores-list"></ol>
+                <button id="back">Go Back</button>
+                <button id="clear">Clear High Scores</button>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+       <p>Proudly created by Dureti Kadir</p>
+   </footer>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
