@@ -12,6 +12,7 @@ body {
   flex-direction: column;
 }
 
+/*****Added stylings to the header*****/
 #view-score {
   display: inline-flex;
   cursor: pointer;
@@ -30,6 +31,7 @@ button:hover {
   margin: 10px;
 }
 
+/*****Display patterns and styles of the intro-page*****/
 #intro {
   display: block;
   width: 75%;
@@ -69,6 +71,7 @@ button:hover {
   cursor: pointer;
 }
 
+/*****Modified the questions and answers overall presentation*****/
 #listed-questions {
   display: block;
   width: 75%;
@@ -105,6 +108,7 @@ button:hover {
   background-color: purple;
 }
 
+/******Added some styles to the score page*****/
 #final-score {
   display: block;
   width: 75%;
@@ -141,6 +145,7 @@ button:hover {
   background-color: purple;
 }
 
+/*****Styles on high-scores display page*****/
 #high-scores {
   width: 30%;
   margin: auto;
@@ -169,6 +174,7 @@ button:hover {
   background-color: purple;
 }
 
+/*****Stylings on the footer*****/
 footer {
   position: fixed;
   left: 0;
@@ -178,6 +184,7 @@ footer {
   color: grey;
 }
 
+/*****Hiding these pages until certain buttons are clicked to display them i.e via JavaScript*****/ 
 #listed-questions,
 #final-score,
 #high-scores {
